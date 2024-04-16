@@ -12,7 +12,7 @@ public class DevideByZeroHandling {
         divisor = scanner.nextInt();
 
         try {
-            System.out.println(dividend + "를 " + divisor + "로 나눈 몫은 " + dividend/divisor + "입니다.");
+            System.out.println(dividend + "를 " + divisor + "로 나눈 몫은 " + (dividend / divisor) + "입니다.");
         }
         catch (ArithmeticException e) {
             System.out.println("수학 공부를 더 하십시오.");
