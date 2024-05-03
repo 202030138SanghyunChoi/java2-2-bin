@@ -1,3 +1,4 @@
+package mid;
 import java.util.Scanner;
 
 public class DevideByZeroHandling {

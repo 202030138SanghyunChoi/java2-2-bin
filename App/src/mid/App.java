@@ -1,4 +1,5 @@
-import java2.Calculator;
+package mid;
+import mid.java2.Calculator;
 
 public class App {
     public static void main(String[] args) throws Exception {

@@ -1,3 +1,4 @@
+package mid;
 class Point {
     private int x, y;
     public Point() {

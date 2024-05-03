@@ -1,4 +1,12 @@
+package mid;
 public class Circle {
+    public Circle() {
+
+    }
+    public Circle(int radius, String name){
+        this.radius = radius;
+        this.name = name;
+    }    
 
     final static double PI = 3.14;
     

@@ -1,3 +1,4 @@
+package mid;
 class StaticSample {
     int n;
     void g() {
