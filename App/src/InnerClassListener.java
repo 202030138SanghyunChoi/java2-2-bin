@@ -18,7 +18,7 @@ public class InnerClassListener extends JFrame {
         JButton btn = new JButton("Action");
         // 버튼에 이벤트 리스너 추가
         btn.addActionListener(new MyActionListener());
-        // 패널에다 버튼 추가
+        // 패널 안에 버튼 추가
         c.add(btn);
 
         // 사이즈 및 보여주기 설정

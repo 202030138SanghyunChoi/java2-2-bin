@@ -34,7 +34,7 @@ public class AnonymousClassListener extends JFrame {
                 }
             }
         });
-        // 패널에다 버튼 추가
+        // 패널 안에 버튼 추가
         c.add(btn);
 
         // 사이즈 및 보여주기 설정
