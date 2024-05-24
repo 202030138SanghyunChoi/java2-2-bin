@@ -33,7 +33,7 @@ public class AnonymousClassListener extends JFrame {
                     b.setText("Action");
                 }
 
-                AnonymousClassListener.this.setTitle(b.getText());
+                setTitle(b.getText());
             }
         });
         // 패널 안에 버튼 추가
