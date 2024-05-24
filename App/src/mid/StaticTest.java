@@ -15,10 +15,10 @@ public class StaticTest {
         StaticSample.m = 3;
         StaticSample.f();
 
-        StaticSample b1 = new StaticSample();
+        // StaticSample b1 = new StaticSample();
         // 원칙적으론 사용하지 말 것(클래스로 사용하면 static 멤버인 것을 확실히 알지만 객체로 사용하면 혼동될 수 있음)
-        b1.m = 6;
-        b1.f();
+        // b1.m = 6;
+        // b1.f();
 
         System.out.println(StaticSample.m);
     }
