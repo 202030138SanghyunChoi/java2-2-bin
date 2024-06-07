@@ -33,8 +33,8 @@ public class VibratingFrame extends JFrame implements Runnable {
 			catch(InterruptedException e){
 				return; // 리턴하면 스레드 종료
 			}
-			int x = getX() + r.nextInt()%5; // 새 위치 x
-			int y = getY() + r.nextInt()%5; // 새 위치 y 
+			int x = getX() + r.nextInt()%30; // 새 위치 x
+			int y = getY() + r.nextInt()%30; // 새 위치 y 
 			setLocation(x, y); // 프레임의 위치 이동
 		}
 	}
