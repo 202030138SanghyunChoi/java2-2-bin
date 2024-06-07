@@ -34,7 +34,7 @@ public class RunnableTimerEx extends JFrame {
 		// 타이머 값을 출력할 레이블 생성
 		JLabel timerLabel = new JLabel();
 		timerLabel.setFont(new Font("Gothic", Font.ITALIC, 80));
-		c.add(timerLabel); // 레이블을 컨텐트팬에  부착
+		c.add(timerLabel); // 레이블을 컨텐트팬에 부착
 		
 		// 타이머 스레드로 사용할 Runnable 객체 생성. 타이머 값을 출력할 레이블을 생성자에 전달
 		TimerRunnable runnable = new TimerRunnable(timerLabel);
